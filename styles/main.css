@@ -283,8 +283,65 @@ html {
 }
 
 .post-info {
-  margin: 5px 0;
+  margin: 7px 0 50px 0;
 
   display: flex;
   justify-content: space-between;
+}
+
+/* Page bottom links */
+
+.links {
+  border-top: 2px double #e2e2e2;
+  margin: 0 79px;
+  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.6rem;
+  color: black;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto 1fr;
+}
+
+.links > * {
+  grid-row: 2;
+}
+
+.links .nyt-logo {
+  grid-row: 1;
+  width: 99%;
+  margin: 10px 0 13px 0;
+  padding-right: 27px;
+}
+
+.list-title {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
+
+.last-list hr {
+ border: 0.1px solid #e2e2e2;
+}
+
+.last-list {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 15px;
+}
+
+.link-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.small-letter {
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.bold-medium {
+  font-weight: 700;
+  font-size: 14px;
 }
