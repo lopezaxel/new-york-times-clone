@@ -175,7 +175,7 @@ html {
 
 .article-body > * {
   grid-column: 3 / 4;
-  font-size: 1.25em;
+  font-size: 1.30em;
   width: 610px;
   line-height: 1.7rem;
   font-weight: 400;
@@ -213,10 +213,6 @@ html {
   background-image: url(../images/things.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.coffe {
-  align-self: ;
 }
 
 .theory-inflation ul li,
@@ -272,12 +268,23 @@ html {
   width: 90px;
 }
 
+/* Youtube video */
+
+.youtube-video {
+  margin-top: 20px;
+}
+
+.video-info {
+  width: 500px;
+  margin: 0 0 20px 0;
+}
+
 /* Post info */
 
 .credit,
 .credit a {
-  color: rgb(102, 102, 102);
-  font-size: 11px;
+  color: #888;
+  font-size: 11.8px;
   letter-spacing: 0.01rem;
   font-family: 'Libre Franklin', Arial, sans-serif;
 }
