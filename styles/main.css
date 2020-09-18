@@ -345,3 +345,20 @@ html {
   font-weight: 700;
   font-size: 14px;
 }
+
+/* Footer */
+
+.footer {
+  border-top: 1px solid #e2e2e2;
+  margin: 10px 100px 0 100px;
+}
+
+.footer ul {
+  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-size: 11px;
+  color: #666;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0 88px 0;
+}
