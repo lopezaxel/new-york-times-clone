@@ -264,8 +264,54 @@ html {
 }
 
 .note hr {
-  color: #cccccc;
+  border: 0.1px solid #ccc;
   width: 90px;
+}
+
+/* Editor's pick article aside */
+
+.editor-pick {
+  grid-column: 4 / span 2;
+  grid-row: 7 / span 3;
+  width: 250px;
+  display: flex;
+  margin-left: 55px;
+  flex-direction: column;
+  align-items: start;
+}
+
+.bold-aside {
+  color: black;
+  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.editor-pick div {
+  border-top: 1px solid #e2e2e2;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.editor-pick div p {
+  width: 133px;
+}
+
+.editor-img-two {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.editor-img-three {
+  grid-row: 3 / 4;
+}
+
+.editor-img {
+  width: 70px;
+  margin: 15px 10px 0 0;
 }
 
 /* Youtube video */
